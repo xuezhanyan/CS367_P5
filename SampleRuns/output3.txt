@@ -1,0 +1,119 @@
+Navigation App
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 1
+[{computerscience}, {cafe}, {chipotle}, {animalscience}]
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 2
+{computerscience} 17.97 35.48 {cafe}
+{chipotle} 15.38 40.73 {animalscience}
+
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+computerscience
+Outgoing edges for {computerscience}: 
+{computerscience} 17.97 35.48 {cafe}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+cafe
+Outgoing edges for {cafe}: 
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+chipotle
+Outgoing edges for {chipotle}: 
+{chipotle} 15.38 40.73 {animalscience}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+animalscience
+Outgoing edges for {animalscience}: 
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+computerscience
+Enter destination location name: 
+cafe
+Edge properties: 
+	1: Time
+	2: Cost
+Select property to compute shortest route on: 
+1
+{computerscience} 17.97 {cafe}, 
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+computerscience
+Enter destination location name: 
+chipotle
+Edge properties: 
+	1: Time
+	2: Cost
+Select property to compute shortest route on: 
+2
+No route exists
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+cafe
+Enter destination location name: 
+computerscience
+Edge properties: 
+	1: Time
+	2: Cost
+Select property to compute shortest route on: 
+1
+No route exists
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 5

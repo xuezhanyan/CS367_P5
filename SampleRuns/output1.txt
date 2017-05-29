@@ -1,0 +1,137 @@
+Navigation App
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 1
+[{computerscience}, {animalscience}, {cafe}, {chipotle}]
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 2
+{computerscience} 16.27 37.00 {animalscience}, {computerscience} 13.97 28.80 {cafe}, {computerscience} 19.60 29.21 {chipotle}
+{animalscience} 18.46 49.12 {chipotle}, {animalscience} 14.31 43.37 {cafe}, {animalscience} 11.81 17.87 {computerscience}
+{cafe} 13.88 42.46 {animalscience}, {cafe} 12.51 46.01 {computerscience}, {cafe} 13.01 15.76 {chipotle}
+{chipotle} 6.37 20.88 {cafe}, {chipotle} 13.87 16.56 {animalscience}, {chipotle} 7.35 39.34 {computerscience}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+animalscience
+Outgoing edges for {animalscience}: 
+{animalscience} 18.46 49.12 {chipotle}
+{animalscience} 14.31 43.37 {cafe}
+{animalscience} 11.81 17.87 {computerscience}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+cafe
+Outgoing edges for {cafe}: 
+{cafe} 13.88 42.46 {animalscience}
+{cafe} 12.51 46.01 {computerscience}
+{cafe} 13.01 15.76 {chipotle}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+chipotle
+Outgoing edges for {chipotle}: 
+{chipotle} 6.37 20.88 {cafe}
+{chipotle} 13.87 16.56 {animalscience}
+{chipotle} 7.35 39.34 {computerscience}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 3
+Enter source location name: 
+computerscience
+Outgoing edges for {computerscience}: 
+{computerscience} 16.27 37.00 {animalscience}
+{computerscience} 13.97 28.80 {cafe}
+{computerscience} 19.60 29.21 {chipotle}
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+cafe
+Enter destination location name: 
+animalscience
+Edge properties: 
+	1: Time
+	2: Cost
+Select property to compute shortest route on: 
+1
+{cafe} 13.88 {animalscience}, 
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+chipotle
+Enter destination location name: 
+computerscience
+Edge properties: 
+	1: Time
+	2: Cost
+Select property to compute shortest route on: 
+2
+{chipotle} 16.56 {animalscience}, {animalscience} 17.87 {computerscience}, 
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+cafe
+Enter destination location name: 
+cafe
+cafe and cafe correspond to the same Location
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 4
+Enter source location name: 
+cafe
+Enter destination location name: 
+comp
+cafe and/or comp are not valid Locations in the graph
+
+1. List all locations
+2. Display Graph
+3. Display Outgoing Edges
+4. Display Shortest Route
+5. Quit
+Enter your choice: 5
